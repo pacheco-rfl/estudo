@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Responsivo com @media</title>
+    <link rel="stylesheet" href="/estilo.css">
+
+    <!-- Baixando um ícone de um site -->
+    <!-- Primeiro passo incorporar a biblioteca -->
+    <!-- Digite no google Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <!-- inserir o logo aqui -->
+            <i class="fa-solid fa-house" id="navlogo"> my house</i>
+            <!-- Menu com marcador -->
+            <ul id="nav_list">
+                <li class="list"><a href="#inicio">Início</a></li>
+                <li class="list"><a href="#Sobre">Sobre</a></li>
+                <li class="list"><a href="#Servico">Serviço</a></li>
+                <li class="list"><a href="#Contato">Contato</a></li>
+            </ul>
+
+            <!-- Inserir o botão peça aqui -->
+            <button class="btn">Peça aqui</button>
+
+            <!-- Criar o botão que só irá aparecer quando a tela for menor -->
+            <button id="mobileBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+
+        <!-- menu responsivo -->
+        <div id="mobileMenu">
+            <ul id="mobileNavList">
+                <li class="list"><a href="#inicio">Início</a></li>
+                <li class="list"><a href="#Sobre">Sobre</a></li>
+                <li class="list"><a href="#Servico">Serviço</a></li>
+                <li class="list"><a href="#Contato">Contato</a></li>
+            </ul>
+            <!-- Inserir o botão peça aqui -->
+            <button class="btn">Peça aqui</button>
+
+        </div>
+    </header>
+</body>
+</html>

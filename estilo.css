@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech&display=swap');
+
+*{
+    font-family: "Share Tech", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background: linear-gradient(to right, #1eb6b6, #ff818113);
+    width: 100%;
+    padding: 28px 8%;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navlogo{
+    font-size: 24px;
+    color: blanchedalmond;
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.list a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.274);
+    color: #000000;
+    padding: 14px 28px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #04d8fd6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 1.5s, background-color 0.3s;
+}
+
+.btn:hover{
+    color: rgb(50, 143, 205);
+    background-color: rgb(7, 5, 5);
+}
+
+/* Escondendo os elementos do mobile */
+#mobileBtn{
+    display: none;
+    color: salmon;
+}
+
+#mobileMenu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
